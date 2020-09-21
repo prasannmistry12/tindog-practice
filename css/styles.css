@@ -1,0 +1,210 @@
+body{
+    font-family: "Montserrat";
+}
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+   
+}
+#container{
+    padding:3% 15%;
+    
+
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem; 
+}
+h2{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.heading h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem; 
+}
+.heading2 h2{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 0 15%;
+}
+.heading3 h3{
+    font-family: "ubuntu";
+
+}
+h3{
+    font-family: "ubuntu";
+
+}
+.para p{
+    color: #8f8f8f;
+    padding:0 15% ;
+}
+p{
+    color: #8f8f8f;
+    font-weight: bold;
+}
+#heading{
+    line-height: 1.5;
+}  
+.title-img{
+    width:200px;
+    height: auto;
+    transform: rotate(25deg);
+    right: 30%;
+    position: absolute;
+   
+}
+@media screen and (max-width:1028px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+/* Navigation bar */
+
+#brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    margin-bottom: 4.5rem;
+    border-bottom: 2px solid pink;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: ubuntu;
+    font-size: 1.2rem; 
+
+}
+/* Download Button */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* Icons */
+
+#features{
+     padding: 7% 15%;
+     text-align: center;
+     background-color: white;
+     position: relative;
+     z-index: 1;
+     
+}
+
+i {
+    
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+i:hover{
+    color: #ff4c68;
+}
+/* Testemonial section */
+#testimonials{
+     
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding:5%;
+    
+}
+.press{
+    width:15%; 
+    padding-bottom:  50px;
+    padding-left: 20px;
+}
+
+
+/* dropdownn list */
+
+.dropbtn {
+    background-color: #ff4c68;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+  }
+  
+  .dropdownn-content {
+    display: none;
+    position: absolute;
+    
+    
+    padding-top: 10px;
+    
+    z-index: 1;
+  }
+  
+  .dropdownn-content a {
+    color: black;
+    padding: 12px 18px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdownn-content a:hover {color: #acacac;}
+  
+  .dropdownn:hover .dropdownn-content {display: block;}
+  
+  .dropdownn:hover .dropbtn {background-color:;}
+  
+  /* Pricing */
+
+  .card{
+ 
+      text-align: center;
+  }
+  .pricing{
+      padding: 100px;
+  }
+  .pricing-col{
+      padding: 3% 2%;
+  }
+
+  /* call to action */
+
+  #cta{
+      background-color: #ff4c68;
+      padding: 7% 15%;
+      text-align: center;
+  }
+
+  .cta{
+    font-family: "Montserrat";
+    font-size: 3.5rem; 
+    color: #fff;
+  }
+
+  /* footer */
+
+  #footer{
+      text-align: center;
+      padding-bottom: 5%;
+  }
+  b{
+      padding:7% 1% 2% 1% ;
+      cursor: pointer   ;
+  }
